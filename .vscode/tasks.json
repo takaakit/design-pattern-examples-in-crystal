@@ -1,0 +1,120 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "build behavioral_patterns/chain_of_responsibility (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/chain_of_responsibility/main.cr -o bin/chain_of_responsibility.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/command (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/command/main.cr -o bin/command.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/interpreter (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/interpreter/main.cr -o bin/interpreter.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/iterator (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/iterator/main.cr -o bin/iterator.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/mediator (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/mediator/main.cr -o bin/mediator.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/memento (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/memento/main.cr -o bin/memento.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/observer (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/observer/main.cr -o bin/observer.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/state (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/state/main.cr -o bin/state.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/strategy (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/strategy/main.cr -o bin/strategy.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/template_method (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/template_method/main.cr -o bin/template_method.out"
+	  },
+	  {
+		"label": "build behavioral_patterns/visitor (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/behavioral_patterns/visitor/main.cr -o bin/visitor.out"
+	  },
+	  {
+		"label": "build creational_patterns/abstract_factory (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/creational_patterns/abstract_factory/main.cr -o bin/abstract_factory.out"
+	  },
+	  {
+		"label": "build creational_patterns/builder (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/creational_patterns/builder/main.cr -o bin/builder.out"
+	  },
+	  {
+		"label": "build creational_patterns/factory_method (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/creational_patterns/factory_method/main.cr -o bin/factory_method.out"
+	  },
+	  {
+		"label": "build creational_patterns/prototype (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/creational_patterns/prototype/main.cr -o bin/prototype.out"
+	  },
+	  {
+		"label": "build creational_patterns/singleton (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/creational_patterns/singleton/main.cr -o bin/singleton.out"
+	  },
+	  {
+		"label": "build structural_patterns/adapter (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/adapter/main.cr -o bin/adapter.out"
+	  },
+	  {
+		"label": "build structural_patterns/bridge (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/bridge/main.cr -o bin/bridge.out"
+	  },
+	  {
+		"label": "build structural_patterns/composite (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/composite/main.cr -o bin/composite.out"
+	  },
+	  {
+		"label": "build structural_patterns/decorator (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/decorator/main.cr -o bin/decorator.out"
+	  },
+	  {
+		"label": "build structural_patterns/facade (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/facade/main.cr -o bin/facade.out"
+	  },
+	  {
+		"label": "build structural_patterns/flyweight (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/flyweight/main.cr -o bin/flyweight.out"
+	  },
+	  {
+		"label": "build structural_patterns/proxy (debug)",
+		"type": "shell",
+		"command": "crystal build --debug src/structural_patterns/proxy/main.cr -o bin/proxy.out"
+	  }
+	]
+  }

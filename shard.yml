@@ -1,0 +1,7 @@
+name: design-pattern-examples-in-crystal
+version: 0.1.0
+crystal: ~> 1.0
+license: CC0
+dependencies:
+  cairo-gobject:
+    github: viachpaliy/cairo-gobject

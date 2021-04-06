@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"debug.allowBreakpointsEverywhere": true,
+		"debug.internalConsoleOptions": "openOnSessionStart",
+		"debug.console.collapseIdenticalLines": false
+	}
+}

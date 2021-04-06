@@ -98,7 +98,7 @@ This has been confirmed on Ubuntu 20.04.2, not confirmed on macOS and Windows.
   3. Click the **Generate Code** button.  
   ![](screenshots/GenerateCode.gif "Generate Code")  
   The generated code has **User Code Area**. The User Code Area is the area enclosed by "˅" and "˄". Handwritten code written in the User Code Area remains after a re-generation. [View code example](#code-example).  
-  For detailed usage of the tools, please see [Astah Manual](http://astah.net/manual) and [M PLUS plug-in Tips](https://sites.google.com/view/m-plus-plugin/tips).
+  For detailed usage of the tools, please see [Astah Manual](http://astah.net/manual) and [M PLUS plug-in Tips](https://sites.google.com/view/m-plus-plugin-tips).
 
 **Build and Run (in Debug Mode)**
   1. Open the workspace file (design-pattern-examples-in-crystal.code-workspace) in VS Code.

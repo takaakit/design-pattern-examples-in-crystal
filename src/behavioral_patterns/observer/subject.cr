@@ -3,7 +3,7 @@ require "./observer"
 
 # ˄
 
-# An abstract class that generates numbers.
+# Provides an interface for attaching and detaching Observer objects.
 abstract class Subject
   # ˅
 

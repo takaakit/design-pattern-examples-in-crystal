@@ -70,7 +70,7 @@ end
 
 Installation on Ubuntu
 ------------
-This has been confirmed on Ubuntu 20.04.2 / 18.04.5 / 16.04.7, not confirmed on macOS and Windows.
+This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
 
 **UML Modeling Tool**
 * Download the modeling tool [Astah](http://astah.net/download) UML or Professional, and install.  
@@ -90,17 +90,11 @@ This has been confirmed on Ubuntu 20.04.2 / 18.04.5 / 16.04.7, not confirmed on 
   ```bash
   shards install --ignore-crystal-version
   ```
-  * If you use Ubuntu16.04 based distributives uncomment line 3 in *lib/cairo-gobject/src/cairo.cr* file 
-    ```crystal
-    require "./patch_for_ubuntu1604.cr"
-    ```
-    Source: [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
-  * If you use Ubuntu18.04 based distributives uncomment *Rectangle* structure in *lib/cairo-gobject/src/cairo/lib_cairo.cr* file (lines 7...12).  
-    Source: [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
+  If you use Ubuntu18.04 based distributives uncomment *Rectangle* structure in *lib/cairo-gobject/src/cairo/lib_cairo.cr* file (lines 7...12). *Source:* [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
 
 Usage on Ubuntu
 -----
-This has been confirmed on Ubuntu 20.04.2 / 18.04.5 / 16.04.7, not confirmed on macOS and Windows.
+This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
 
 **Code Generation from UML**
   1. Open the Astah file (model/DesignPatternExamplesInCrystal.asta).

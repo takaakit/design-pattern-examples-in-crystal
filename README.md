@@ -70,7 +70,7 @@ end
 
 Installation on Ubuntu
 ------------
-This has been confirmed on Ubuntu 20.04.2, not confirmed on macOS and Windows.
+This has been confirmed on Ubuntu 20.04.2 / 18.04.5 / 16.04.7, not confirmed on macOS and Windows.
 
 **UML Modeling Tool**
 * Download the modeling tool [Astah](http://astah.net/download) UML or Professional, and install.  
@@ -81,16 +81,26 @@ This has been confirmed on Ubuntu 20.04.2, not confirmed on macOS and Windows.
 * Install [Crystal](https://crystal-lang.org/install/) ver.1.0.0 or higher.
 * Download and install [VS Code](https://code.visualstudio.com/download).  
 * Install [Crystal Language](https://marketplace.visualstudio.com/items?itemName=crystal-lang-tools.crystal-lang) and [Native Debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug) extensions for VS Code.
+* Run this command to install the GTK and GDK development packages.  
+  ```bash
+  sudo apt-get install libgirepository1.0-dev libgtk-3-dev libcairo-gobject2 gir1.2-freedesktop
+  ```
 * Run this command in the project root directory to install [crystal-gobject](https://github.com/jhass/crystal-gobject) and [cairo-gobject](https://github.com/viachpaliy/cairo-gobject) shards.  
-  `shards install --ignore-crystal-version`  
   *Note:* A file exists error (File::AlreadyExistsError) occurs when running the shards command, but the installation seems to succeed.  
-* Run these commands to install the Gtk development packages.  
-  `sudo apt install libgirepository1.0-dev`  
-  `sudo apt install libgtk-3-dev`
+  ```bash
+  shards install --ignore-crystal-version
+  ```
+  * If you use Ubuntu16.04 based distributives uncomment line 3 in *lib/cairo-gobject/src/cairo.cr* file 
+    ```crystal
+    require "./patch_for_ubuntu1604.cr"
+    ```
+    Source: [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
+  * If you use Ubuntu18.04 based distributives uncomment *Rectangle* structure in *lib/cairo-gobject/src/cairo/lib_cairo.cr* file (lines 7...12).  
+    Source: [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
 
 Usage on Ubuntu
 -----
-This has been confirmed on Ubuntu 20.04.2, not confirmed on macOS and Windows.
+This has been confirmed on Ubuntu 20.04.2 / 18.04.5 / 16.04.7, not confirmed on macOS and Windows.
 
 **Code Generation from UML**
   1. Open the Astah file (model/DesignPatternExamplesInCrystal.asta).

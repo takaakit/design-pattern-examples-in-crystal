@@ -26,11 +26,11 @@ class PaintingCanvas < PaintingTarget
     # ˄
   end
 
-  def paint(painting_pos_x : Int32, painting_pos_y : Int32)
+  def paint(x : Int32, y : Int32)
     # ˅
     context = Gdk.cairo_create(@darea.window.not_nil!)
     context.set_source_rgba(@painting_color.red, @painting_color.green, @painting_color.blue, @painting_color.alpha)
-    context.arc(painting_pos_x, painting_pos_y, @point_radius, 0, 2 * Math::PI)
+    context.arc(x, y, @point_radius, 0, 2 * Math::PI)
     context.fill
     # ˄
   end

@@ -46,10 +46,9 @@ class Directory < FileSystemElement
   end
 
   # Add an element
-  def add(element : FileSystemElement) : FileSystemElement
+  def add(element : FileSystemElement)
     # ˅
     @elements.push(element)
-    return self
     # ˄
   end
 

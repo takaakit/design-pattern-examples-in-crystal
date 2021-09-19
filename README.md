@@ -17,7 +17,7 @@ This project is available for the following objectives:
 <a id="code-example"></a>
 > Crystal code example:
 
-```crystal:File class
+```crystal
 # ˅
 require "./file_system_element"
 

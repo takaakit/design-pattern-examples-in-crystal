@@ -6,7 +6,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/chain_of_responsibility.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/chain_of_responsibility (debug)"
       },
       {
@@ -14,7 +14,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/command.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/command (debug)"
       },
       {
@@ -22,7 +22,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/interpreter.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/interpreter (debug)"
       },
       {
@@ -30,7 +30,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/iterator.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/iterator (debug)"
       },
       {
@@ -38,7 +38,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/mediator.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/mediator (debug)"
       },
       {
@@ -46,7 +46,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/memento.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/memento (debug)"
       },
       {
@@ -54,7 +54,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/observer.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/observer (debug)"
       },
       {
@@ -62,7 +62,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/state.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/state (debug)"
       },
       {
@@ -70,7 +70,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/strategy.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/strategy (debug)"
       },
       {
@@ -78,7 +78,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/template_method.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/template_method (debug)"
       },
       {
@@ -86,7 +86,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/visitor.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build behavioral_patterns/visitor (debug)"
       },
       {
@@ -94,7 +94,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/abstract_factory.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build creational_patterns/abstract_factory (debug)"
       },
       {
@@ -102,7 +102,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/builder.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build creational_patterns/builder (debug)"
       },
       {
@@ -110,7 +110,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/factory_method.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build creational_patterns/factory_method (debug)"
       },
       {
@@ -118,7 +118,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/prototype.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build creational_patterns/prototype (debug)"
       },
       {
@@ -126,7 +126,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/singleton.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build creational_patterns/singleton (debug)"
       },
       {
@@ -134,7 +134,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/adapter.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/adapter (debug)"
       },
       {
@@ -142,7 +142,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/bridge.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/bridge (debug)"
       },
       {
@@ -150,7 +150,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/composite.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/composite (debug)"
       },
       {
@@ -158,7 +158,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/decorator.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/decorator (debug)"
       },
       {
@@ -166,7 +166,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/facade.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/facade (debug)"
       },
       {
@@ -174,7 +174,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/flyweight.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/flyweight (debug)"
       },
       {
@@ -182,7 +182,7 @@
         "type": "gdb",
         "request": "launch",
         "target": "./bin/proxy.out",
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "preLaunchTask": "build structural_patterns/proxy (debug)"
       }
     ]

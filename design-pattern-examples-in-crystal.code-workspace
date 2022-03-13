@@ -7,6 +7,9 @@
 	"settings": {
 		"debug.allowBreakpointsEverywhere": true,
 		"debug.internalConsoleOptions": "openOnSessionStart",
-		"debug.console.collapseIdenticalLines": false
+		"debug.console.collapseIdenticalLines": false,
+		"code-runner.showRunCommandInEditorContextMenu": false,
+		"code-runner.showRunCommandInExplorerContextMenu": false,
+		"code-runner.showRunIconInEditorTitleMenu": false
 	}
 }

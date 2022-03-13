@@ -85,11 +85,14 @@ This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and 
   sudo apt-get install libgirepository1.0-dev libgtk-3-dev libcairo-gobject2 gir1.2-freedesktop
   ```
 * Run this command in the project root directory to install [crystal-gobject](https://github.com/jhass/crystal-gobject) and [cairo-gobject](https://github.com/viachpaliy/cairo-gobject) shards.  
-  *Note:* A file exists error (File::AlreadyExistsError) occurs when running the shards command, but the installation seems to succeed.  
   ```bash
-  shards install --ignore-crystal-version
+  shards install
   ```
-  If you use Ubuntu18.04 based distributives uncomment *Rectangle* structure in *lib/cairo-gobject/src/cairo/lib_cairo.cr* file (lines 7...12). *Source:* [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
+  *Note:* The following error (File::AlreadyExistsError) occurs when running the shards command, but the installation seems to succeed.  
+  ```bash
+  Unhandled exception: Error creating symlink: '..' -> '/path_to_app/lib/cairo-gobject/lib': File exists (File::AlreadyExistsError)
+  ```
+* If you use Ubuntu18.04 based distributives, uncomment *Rectangle* structure in *lib/cairo-gobject/src/cairo/lib_cairo.cr* file (lines 7...12). *Source:* [cairo-gobject](https://github.com/viachpaliy/cairo-gobject#installation)
 
 Usage on Ubuntu
 -----

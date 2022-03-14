@@ -108,9 +108,7 @@ This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and 
 
 **Build and Run (in Debug Mode)**
   1. Open the workspace file (design-pattern-examples-in-crystal.code-workspace) in VS Code.
-  2. Select the **Run and Debug** icon in the Activity Bar on the side of VS Code.
-  3. Select the configuration named Debug Program using the Configuration drop-down in the Run view.
-  4. Click the **Start Debugging** button.  
+  2. Open `main.cr` for the pattern you want to run, and click **Run > Start Debugging** (or press F5).  
      ![](screenshots/BuildAndRun.gif "Build and Run")  
 
 References

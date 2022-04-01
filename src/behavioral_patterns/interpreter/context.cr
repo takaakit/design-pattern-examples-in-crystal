@@ -8,26 +8,23 @@ class Context
 
   # ˄
 
-  @array_text : Array(String)
+  @takens : Array(String)
 
   @current_index : Int32
 
-  @array_size : Int32
-
   def initialize(text : String)
     # ˅
-    @array_text = text.split
+    @takens = text.split
     @current_index = 0
-    @array_size = @array_text.size
     # ˄
   end
 
   def next_token : String?
     # ˅
-    if @current_index < @array_size
-      pre_index = @current_index
+    if @current_index < @takens.size
+      current_token = @takens[@current_index]
       @current_index += 1
-      return @array_text[pre_index]
+      return current_token
     else
       return nil
     end
@@ -36,13 +33,13 @@ class Context
 
   def get_token : String?
     # ˅
-    return @array_text[@current_index]
+    return @takens[@current_index]
     # ˄
   end
 
   def slide_token(token : String)
     # ˅
-    if token != @array_text[@current_index]
+    if token != @takens[@current_index]
       abort("WARNING: #{token} is expected but #{get_token} was found.")
     end
     next_token

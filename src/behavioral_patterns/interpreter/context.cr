@@ -8,21 +8,21 @@ class Context
 
   # ˄
 
-  @takens : Array(String)
+  @tokens : Array(String)
 
   @current_index : Int32
 
   def initialize(text : String)
     # ˅
-    @takens = text.split
+    @tokens = text.split
     @current_index = 0
     # ˄
   end
 
   def next_token : String?
     # ˅
-    if @current_index < @takens.size
-      current_token = @takens[@current_index]
+    if @current_index < @tokens.size
+      current_token = @tokens[@current_index]
       @current_index += 1
       return current_token
     else
@@ -33,13 +33,13 @@ class Context
 
   def get_token : String?
     # ˅
-    return @takens[@current_index]
+    return @tokens[@current_index]
     # ˄
   end
 
   def slide_token(token : String)
     # ˅
-    if token != @takens[@current_index]
+    if token != get_token
       abort("WARNING: #{token} is expected but #{get_token} was found.")
     end
     next_token

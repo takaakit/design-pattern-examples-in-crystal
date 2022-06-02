@@ -12,7 +12,7 @@ This project is available for the following objectives:
 
 > UML model example:
 
-![](screenshots/CompositePattern.svg "Composite Pattern")
+![](./screenshots/CompositePattern.svg "Composite Pattern")
 
 <a id="code-example"></a>
 > Crystal code example:
@@ -102,14 +102,14 @@ This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and 
   1. Open the Astah file (model/DesignPatternExamplesInCrystal.asta).
   2. Select model elements on the model browser of Astah.
   3. Click the **Generate Code** button.  
-  ![](screenshots/GenerateCode.gif "Generate Code")  
+  ![](./screenshots/GenerateCode.gif "Generate Code")  
   The generated code has **User Code Area**. The User Code Area is the area enclosed by "˅" and "˄". Handwritten code written in the User Code Area remains after a re-generation. [View code example](#code-example).  
   For detailed usage of the tools, please see [Astah Manual](http://astah.net/manual) and [M PLUS plug-in Tips](https://sites.google.com/view/m-plus-plugin-tips).
 
 **Build and Run (in Debug Mode)**
   1. Open the workspace file (design-pattern-examples-in-crystal.code-workspace) in VS Code.
   2. Open `main.cr` for the pattern you want to run, and click **Run > Start Debugging** (or press F5).  
-     ![](screenshots/BuildAndRun.gif "Build and Run")  
+     ![](./screenshots/BuildAndRun.gif "Build and Run")  
 
 References
 ----------

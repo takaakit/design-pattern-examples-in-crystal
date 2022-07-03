@@ -69,7 +69,7 @@ end
 
 Installation on Ubuntu
 ------------
-This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
+This has been confirmed on Ubuntu 22.04 / 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
 
 **UML Modeling Tool**
 * Download the modeling tool [Astah](http://astah.net/download) UML or Professional, and install.  
@@ -81,8 +81,14 @@ This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and 
 * Download and install [VS Code](https://code.visualstudio.com/download).  
 * Install [Crystal Language](https://marketplace.visualstudio.com/items?itemName=crystal-lang-tools.crystal-lang) and [Native Debug](https://marketplace.visualstudio.com/items?itemName=webfreak.debug) extensions for VS Code.
 * Run this command to install the GTK and GDK development packages.  
+  Ubuntu 20.04 / 18.04
   ```bash
   sudo apt-get install libgirepository1.0-dev libgtk-3-dev libcairo-gobject2 gir1.2-freedesktop
+  ```
+  Ubuntu 22.04
+  ```bash
+  sudo apt-get install libgirepository1.0-dev libgtk-3-dev libcairo-gobject2 gir1.2-freedesktop
+  sudo apt-get install gcc pkg-config git tzdata libpcre3-dev libevent-dev libyaml-dev libgmp-dev libssl-dev libxml2-dev
   ```
 * Run this command in the project root directory to install [crystal-gobject](https://github.com/jhass/crystal-gobject) and [cairo-gobject](https://github.com/viachpaliy/cairo-gobject) shards.  
   ```bash
@@ -96,7 +102,7 @@ This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and 
 
 Usage on Ubuntu
 -----
-This has been confirmed on Ubuntu 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
+This has been confirmed on Ubuntu 22.04 / 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
 
 **Code Generation from UML**
   1. Open the Astah file (model/DesignPatternExamplesInCrystal.asta).

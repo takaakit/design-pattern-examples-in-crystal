@@ -34,7 +34,7 @@ abstract class Supporter
     # ˄
   end
 
-  # Set a next supporter.
+  # Set a next supporter and return it.
   def set_next(_next : Supporter) : Supporter
     # ˅
     @next = _next

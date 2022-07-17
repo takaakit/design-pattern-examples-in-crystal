@@ -19,6 +19,7 @@ class HistoryCommand < Command
     # ˄
   end
 
+  # Execute all past commands
   def execute
     # ˅
     @past_commands.each do |past_command|

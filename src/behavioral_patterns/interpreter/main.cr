@@ -32,6 +32,7 @@ require "./context"
 # After parsing  : [program [repeat 4 [forward, right]]]
 # ```
 
+# Reads commands line by line from the "program.txt" and parses them.
 File.open(File.dirname(__FILE__) + "/program.txt", "r") do |f|
   f.each_line do |line|
     line = line.strip

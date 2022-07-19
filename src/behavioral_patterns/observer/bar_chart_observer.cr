@@ -19,6 +19,7 @@ class BarChartObserver < Observer
 
   def update(changed_subject : Subject)
     # ˅
+    # Before processing, it checks to make sure the changed subject is the subject held.
     if changed_subject === @number_subject
       print "Bar chart: "
       (0..@number_subject.value - 1).each do |_|

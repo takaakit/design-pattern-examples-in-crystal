@@ -26,6 +26,7 @@ class NumberSubject < Subject
 
   def value=(value : Int32)
     # ˅
+    # Notify observers when the value is set.
     @value = value
     notify_observers()
     # ˄

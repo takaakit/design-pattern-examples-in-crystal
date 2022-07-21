@@ -72,6 +72,7 @@ class AppSafe < Context
     root_container.add(button_container)
     @window.add(root_container)
 
+    # Advance one hour for every second of real time.
     hour = 0
     GLib.timeout(1.second) do
       set_time(hour) # Set the time

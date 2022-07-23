@@ -6,7 +6,7 @@ require "./credit_card/credit_card_factory"
 
 factory = CreditCardFactory.new
 
-jackson_card = factory.create("Jacson")
+jackson_card = factory.create("Jackson")
 jackson_card.use
 
 sophia_card = factory.create("Sophia")

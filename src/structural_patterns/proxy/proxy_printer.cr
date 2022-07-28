@@ -23,7 +23,11 @@ class ProxyPrinter < Printer
 
   def get_name : String
     # ˅
-    return @current_name
+    if @real.nil? == false
+      return @real.not_nil!.get_name()
+    else
+      return @current_name
+    end
     # ˄
   end
 

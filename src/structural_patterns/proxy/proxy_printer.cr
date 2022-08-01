@@ -44,7 +44,7 @@ class ProxyPrinter < Printer
 
   def output(content : String)
     # ˅
-    # Check to see if the the RealPrinter had been created, create it if necessary.
+    # Check to see if the RealPrinter had been created, create it if necessary.
     if @real.nil?
       @real = RealPrinter.new(@current_name)
     end

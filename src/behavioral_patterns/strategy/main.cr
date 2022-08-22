@@ -13,13 +13,13 @@ require "./random_strategy"
 player1 = Player.new("Emily", MirrorStrategy.new)
 player2 = Player.new("James", RandomStrategy.new)
 
-(0..99).each do |i|
+100.times do
   hand_of_player_1 = player1.show_hand_signal
   hand_of_player_2 = player2.show_hand_signal
   
   # Judge win, loss, or draw
-  result_of_player_1 = GameResultType::DRAW
-  result_of_player_2 = GameResultType::DRAW
+  result_of_player_1 : GameResultType
+  result_of_player_2 : GameResultType
   if hand_of_player_1.is_stronger_than(hand_of_player_2)
     puts "Winner: #{player1.to_s}"
     result_of_player_1 = GameResultType::WIN

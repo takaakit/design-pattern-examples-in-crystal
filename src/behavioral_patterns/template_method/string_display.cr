@@ -41,9 +41,7 @@ class StringDisplay < AbstractDisplay
   private def write_line
     # ˅
     print "#" # Display an end mark "#"
-    (0..@width - 1).each do |i|
-      print "-" # Display a line "-"
-    end
+    print "-" * @width # Display a line "-"
     puts "#" # Display an end mark "#"
     # ˄
   end

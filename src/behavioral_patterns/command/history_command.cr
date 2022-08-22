@@ -37,7 +37,7 @@ class HistoryCommand < Command
   # Delete the last command
   def undo
     # ˅
-    if @past_commands.size != 0
+    if @past_commands.size >= 1
       @past_commands.pop
     end
     # ˄

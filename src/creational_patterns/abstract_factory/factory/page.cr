@@ -33,7 +33,7 @@ abstract class Page
 
   def output
     # ˅
-    file_name = @title + ".html"
+    file_name = "#{@title}.html"
     File.write(file_name, to_html, mode: "w")
     puts "#{file_name} has been created."
     puts "Output File: #{FileUtils.pwd}/#{file_name}"

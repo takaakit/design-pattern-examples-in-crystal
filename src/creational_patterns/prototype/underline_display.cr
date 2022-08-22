@@ -24,13 +24,8 @@ class UnderlineDisplay < Display
 
   def show(message : String)
     # ˅
-    length = message.size
     puts "\"#{message}\""
-    print " "
-    (0..length - 1).each do |i|
-      print @underline_char
-    end
-    puts ""
+    puts " #{@underline_char.to_s * message.size}"
     # ˄
   end
 

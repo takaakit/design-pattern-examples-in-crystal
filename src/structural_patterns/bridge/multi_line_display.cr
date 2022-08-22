@@ -18,7 +18,7 @@ class MultiLineDisplay < Display
   def output_multiple(times : Int32)
     # ˅
     open
-    (0..times - 1).each do |i|
+    times.times do
       write
     end
     close

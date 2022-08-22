@@ -9,8 +9,8 @@ require "./gamer"
 gamer = Gamer.new(100)         # The initial money is 100
 memento = gamer.create_memento # Save the initial state
 
-(1..10).each do |i|
-  puts "---- Turn #{i}" # Display count
+10.times do |i|
+  puts "---- Turn #{i + 1}" # Display count
 
   gamer.play # Play a game
 

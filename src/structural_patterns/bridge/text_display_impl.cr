@@ -41,11 +41,9 @@ class TextDisplayImpl < DisplayImpl
 
   private def print_line
     # ˅
-    print "#"                   # Display "#" mark at the beginning of a frame.
-    (0..@width - 1).each do |i| # Display "." for the number of "width".
-      print "."
-    end
-    puts "#" # Display "#" mark at the end of a frame.
+    print "#"          # Display "#" mark at the beginning of a frame.
+    print "." * @width # Display "." for the number of "width".
+    puts "#"           # Display "#" mark at the end of a frame.
     # ˄
   end
 

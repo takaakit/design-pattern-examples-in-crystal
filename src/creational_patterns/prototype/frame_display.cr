@@ -24,16 +24,9 @@ class FrameDisplay < Display
 
   def show(message : String)
     # ˅
-    length = message.size
-    (0..length + 4 - 1).each do |i|
-      print @border_char
-    end
-    puts ""
+    puts @border_char.to_s * (message.size + 4)
     puts "#{@border_char} #{message} #{@border_char}"
-    (0..length + 4 - 1).each do |i|
-      print @border_char
-    end
-    puts ""
+    puts @border_char.to_s * (message.size + 4)
     # ˄
   end
 

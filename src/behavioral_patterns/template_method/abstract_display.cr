@@ -16,7 +16,7 @@ abstract class AbstractDisplay
   def output
     # ˅
     open()
-    (0..4).each do |i| # Repeat write 5 times
+    5.times do # Repeat write 5 times
       write()
     end
     close()

@@ -23,7 +23,7 @@ abstract class Display
   # Show all
   def show
     # ˅
-    (0..get_rows - 1).each do |i|
+    get_rows.times do |i|
       puts get_line_text(i)
     end
     # ˄

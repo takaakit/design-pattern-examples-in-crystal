@@ -42,11 +42,7 @@ class FullFrame < Frame
 
   private def create_line(ch : Char, size : Int32) : String
     # ˅
-    buf = Array(Char).new
-    (0..size - 1).each do |i|
-      buf.push(ch)
-    end
-    return buf.join
+    return ch.to_s * size
     # ˄
   end
 

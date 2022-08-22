@@ -21,11 +21,7 @@ class BarChartObserver < Observer
     # ˅
     # Before processing, it checks to make sure the changed subject is the subject held.
     if changed_subject === @number_subject
-      print "Bar chart: "
-      (0..@number_subject.value - 1).each do |_|
-        print "*"
-      end
-      puts ""
+      puts "Bar chart: #{"*" * @number_subject.value}"
     end
     # ˄
   end

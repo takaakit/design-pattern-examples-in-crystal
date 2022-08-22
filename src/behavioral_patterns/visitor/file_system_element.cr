@@ -14,7 +14,7 @@ abstract class FileSystemElement < Element
 
   def to_s : String
     # ˅
-    return name + " (" + size.to_s + ")"
+    return "#{name} (#{size})"
     # ˄
   end
 

@@ -44,7 +44,7 @@ class RealPrinter < Printer
   private def heavy_task(message : String)
     # ˅
     print message
-    (0..9).each do |i|
+    10.times do
       sleep(0.5)
       print "."
       STDOUT.flush

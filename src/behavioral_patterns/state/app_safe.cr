@@ -117,6 +117,7 @@ class AppSafe < Context
     @textview_message.buffer.end_iter ending
     @textview_message.buffer.insert(ending, "call! #{msg}\n", -1)
 
+    # Scroll to the bottom
     vadj = @scrolled_window.vadjustment
     vadj.value = vadj.upper
     # ˄
@@ -129,6 +130,7 @@ class AppSafe < Context
     @textview_message.buffer.end_iter ending
     @textview_message.buffer.insert(ending, "record ... #{msg}\n", -1)
 
+    # Scroll to the bottom
     vadj = @scrolled_window.vadjustment
     vadj.value = vadj.upper
     # ˄

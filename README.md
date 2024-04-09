@@ -72,7 +72,7 @@ Installation on Ubuntu
 This has been confirmed on Ubuntu 22.04 / 20.04.2 / 18.04.5, not confirmed on macOS and Windows.
 
 **UML Modeling Tool**
-* Download the modeling tool [Astah](http://astah.net/download) UML or Professional, and install.  
+* Download the modeling tool [Astah](https://astah.net/download) UML or Professional, and install.  
 * Download [M PLUS](https://sites.google.com/view/m-plus-plugin/download) plug-in **ver.2.7.4** or higher, and add it to Astah.  
   [How to add plugins to Astah](https://astahblog.com/2014/12/15/astah_plugins/)
 
@@ -110,7 +110,7 @@ This has been confirmed on Ubuntu 22.04 / 20.04.2 / 18.04.5, not confirmed on ma
   3. Click the **Generate Code** button.  
   ![](./screenshots/GenerateCode.gif "Generate Code")  
   The generated code has **User Code Area**. The User Code Area is the area enclosed by "˅" and "˄". Handwritten code written in the User Code Area remains after a re-generation. [View code example](#code-example).  
-  For detailed usage of the tools, please see [Astah Manual](http://astah.net/manual) and [M PLUS plug-in Tips](https://sites.google.com/view/m-plus-plugin-tips).
+  For detailed usage of the tools, please see [Astah Manual](https://astah.net/manual) and [M PLUS plug-in Tips](https://sites.google.com/view/m-plus-plugin-tips).
 
 **Build and Run (in Debug Mode)**
   1. Open the workspace file (design-pattern-examples-in-crystal.code-workspace) in VS Code.
@@ -126,7 +126,7 @@ Licence
 -------
 This project is licensed under the Creative Commons Zero (CC0) license. The model and code are completely free to use.
 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed)
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](https://creativecommons.org/publicdomain/zero/1.0/deed)
 
 Other Language Examples
 -----------------------

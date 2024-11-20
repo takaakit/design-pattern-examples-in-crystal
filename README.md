@@ -1,4 +1,4 @@
-[<img src="./screenshots/DiagramMap.svg">](https://raw.githubusercontent.com/takaakit/design-pattern-examples-in-crystal/master/screenshots/DiagramMap.svg)
+[<img src="./screenshots/AllPatterns.svg">](https://raw.githubusercontent.com/takaakit/design-pattern-examples-in-crystal/master/screenshots/AllPatterns.svg)
 
 Design Pattern Examples in Crystal
 ===

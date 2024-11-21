@@ -12,6 +12,9 @@ class AppSafe < Context
 
   # ˄
 
+  # Display of security center
+  @textview_message : Gtk::TextView
+
   # Current state
   @state : State
 
@@ -19,9 +22,6 @@ class AppSafe < Context
 
   # Current time
   @entry_time : Gtk::Entry
-
-  # Display of security center
-  @textview_message : Gtk::TextView
 
   @scrolled_window : Gtk::ScrolledWindow
 
